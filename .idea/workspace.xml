@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1b6a7ae-befb-4382-a0cb-89b26de5dc90" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="taiga" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="classes.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/coffee/classes.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lightboxes.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/lightboxes.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/nav.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project-profile.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/project-profile.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project-values.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/project-values.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1515">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prism-languages.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prism-languages.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n\# Copyright.*?\n</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/memberships.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/auth.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/project-values.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/third-parties.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/roles.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/classes.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/lightboxes.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/nav.coffee" />
+        <option value="$PROJECT_DIR$/app/coffee/modules/admin/project-profile.coffee" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1408" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taiga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taiga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1b6a7ae-befb-4382-a0cb-89b26de5dc90" name="Default" comment="" />
+      <created>1487674743188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1487674743188</updated>
+      <workItem from="1487674744597" duration="262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1408" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/coffee/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="143" lean-forward="false" selection-start-line="0" selection-start-column="143" selection-end-line="0" selection-end-column="143" />
+          <folding>
+            <marker date="1487674851000" expanded="true" signature="0:889" ph="###### ## Copyright (C) 2014-2017 Andrey Antukh &lt;niwi@niwi.nz&gt;... ######" />
+            <marker date="1487674851000" expanded="true" signature="1127:1225" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="1275:1413" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="1678:21643" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="1900:2799" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="1976:2735" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="2004:2197" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="2061:2183" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="2226:2725" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="2311:2711" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="2602:2670" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="2849:3139" ph="&quot;templateUrl&quot;: &quot;home/home.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="3207:3435" ph="&quot;templateUrl&quot;: &quot;discover/discover-home/discover-home.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="3495:3764" ph="&quot;templateUrl&quot;: &quot;discover/discover-search/discover-search.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="3836:4183" ph="&quot;templateUrl&quot;: &quot;projects/listing/projects-listing.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="3925:3976" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="4253:4473" ph="&quot;title&quot;: &quot;PROJECT.CREATE.TITLE&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="4557:4726" ph="&quot;title&quot;: &quot;PROJECT.CREATE.TITLE&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="4812:4982" ph="&quot;title&quot;: &quot;PROJECT.CREATE.TITLE&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="5074:5224" ph="&quot;title&quot;: &quot;PROJECT.CREATE.TITLE&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="5321:5465" ph="&quot;title&quot;: &quot;PROJECT.CREATE.TITLE&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="5539:5740" ph="&quot;templateUrl&quot;: &quot;projects/project/project.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="5806:5955" ph="&quot;templateUrl&quot;: &quot;search/search.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="6028:6237" ph="&quot;section&quot;: &quot;epics&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="6310:6426" ph="&quot;templateUrl&quot;: &quot;epic/epic-detail.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="6493:6642" ph="&quot;templateUrl&quot;: &quot;backlog/backlog.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="6708:6853" ph="&quot;templateUrl&quot;: &quot;kanban/kanban.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="6945:7066" ph="&quot;templateUrl&quot;: &quot;taskboard/taskboard.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="7154:7275" ph="&quot;templateUrl&quot;: &quot;us/us-detail.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="7360:7485" ph="&quot;templateUrl&quot;: &quot;task/task-detail.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="7687:7800" ph="&quot;templateUrl&quot;: &quot;wiki/wiki-list.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="7869:7977" ph="&quot;templateUrl&quot;: &quot;wiki/wiki.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="8052:8160" ph="&quot;templateUrl&quot;: &quot;team/team.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="8239:8352" ph="&quot;templateUrl&quot;: &quot;issue/issues.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="8426:8546" ph="&quot;templateUrl&quot;: &quot;issue/issues-detail.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="8665:8766" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-profile.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="8861:8969" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-default-values.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="9057:9158" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-modules.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="9245:9345" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-export.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="9433:9534" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-reports.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="9621:9728" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-status.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="9814:9921" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-points.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10011:10122" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-priorities.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10212:10323" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-severities.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10408:10514" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-types.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10607:10721" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-custom-fields.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10805:10910" ph="&quot;templateUrl&quot;: &quot;admin/admin-project-values-tags.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="10986:11083" ph="&quot;templateUrl&quot;: &quot;admin/admin-memberships.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="11173:11264" ph="&quot;templateUrl&quot;: &quot;admin/admin-roles.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="11380:11488" ph="&quot;templateUrl&quot;: &quot;admin/admin-third-parties-webhooks.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="11573:11679" ph="&quot;templateUrl&quot;: &quot;admin/admin-third-parties-github.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="11764:11870" ph="&quot;templateUrl&quot;: &quot;admin/admin-third-parties-gitlab.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="11958:12067" ph="&quot;templateUrl&quot;: &quot;admin/admin-third-parties-bitbucket.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="12150:12254" ph="&quot;templateUrl&quot;: &quot;admin/admin-third-parties-gogs.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="12491:12659" ph="&quot;templateUrl&quot;: &quot;projects/transfer/transfer-page.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="13451:13676" ph="&quot;templateUrl&quot;: &quot;profile/profile.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="13548:13599" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="13734:13886" ph="&quot;templateUrl&quot;: &quot;profile/profile.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="13947:14162" ph="&quot;templateUrl&quot;: &quot;auth/login.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="14214:14400" ph="&quot;templateUrl&quot;: &quot;auth/register.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="14459:14666" ph="&quot;templateUrl&quot;: &quot;auth/forgot-password.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="14732:14947" ph="&quot;templateUrl&quot;: &quot;auth/change-password-from-recovery.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="15008:15200" ph="&quot;templateUrl&quot;: &quot;auth/invitation.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="15257:15569" ph="&quot;templateUrl&quot;: &quot;external-apps/external-app.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="15661:15764" ph="&quot;templateUrl&quot;: &quot;projects/project/blocked-project.html&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="16194:16354" ph="&quot;Content-Type&quot;: &quot;application/json&quot;..." />
+            <marker date="1487674851000" expanded="true" signature="16627:16674" ph="&quot;X-Session-Id&quot;: taiga.sessionId..." />
+            <marker date="1487674851000" expanded="true" signature="16951:17854" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="16997:17781" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="17095:17168" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="17272:17741" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="17400:17505" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="17547:17741" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="17620:17740" ph="&quot;next&quot;: nextUrl..." />
+            <marker date="1487674851000" expanded="true" signature="17798:17854" ph="&quot;responseError&quot;: httpResponseError..." />
+            <marker date="1487674851000" expanded="true" signature="17898:18038" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="18153:18655" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18160:18655" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18211:18268" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18327:18399" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18459:18531" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18585:18645" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="18992:19591" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="19038:19540" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="19192:19500" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="19272:19499" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="19347:19481" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="20141:20614" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="20257:20355" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="20407:20512" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="20529:20614" ph="&quot;response&quot;: responseOk..." />
+            <marker date="1487674851000" expanded="true" signature="21150:21247" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="21706:23775" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="21913:23725" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="22010:22607" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="23972:26627" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="24160:24514" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="24209:24357" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="24396:24508" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="24872:24926" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="25296:25452" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="25389:25452" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="25783:25849" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="25918:26627" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="26036:26121" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="26177:26344" ph="..." />
+            <marker date="1487674851000" expanded="true" signature="26903:27888" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="27995:28234" ph="[...]" />
+            <marker date="1487674851000" expanded="true" signature="28248:28520" ph="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/memberships.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding>
+            <marker date="1487674852000" expanded="true" signature="0:911" ph="###### ## Copyright (C) 2014-2017 Andrey Antukh &lt;niwi@niwi.nz&gt;... ######" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/third-parties.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/roles.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1487674998000" expanded="true" signature="9170:9529" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9427:9501" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9684:10620" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9713:9728" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9765:10609" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9807:10594" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="9953:10554" ph="..." />
+            <marker date="1487674998000" expanded="true" signature="10062:10531" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/auth.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/classes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/lightboxes.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/project-profile.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prism-languages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/project-values.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1515">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/coffee/modules/admin/nav.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,49 @@
+.admin-submenu {
+    li {
+        @include font-type(text);
+        border-bottom: 1px solid $gray-light;
+        text-transform: uppercase;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+    ul {
+        a {
+            color: $white;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0 1rem 1rem;
+            &:hover {
+                background: lighten($primary-dark, 3%);
+                color: $white;
+                transition: all .2s;
+            }
+            &.active {
+                background: lighten($primary-dark, 10%);
+                color: $white;
+                transition: all .2s;
+            }
+            span {
+                display: block;
+                max-width: 85%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+    input {
+        margin: 0 1rem;
+        width: 85%;
+    }
+    .button-gray {
+        display: flex;
+        justify-content: center;
+        margin: 0 1rem;
+        padding: .5rem 0;
+        text-align: center;
+        &:hover {
+            background-color: $blackish;
+        }
+    }
+}

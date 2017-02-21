@@ -1,0 +1,30 @@
+.taskboard {
+    height: $main-height;
+    overflow: hidden;
+    position: relative;
+    h1,
+    .graphics-container,
+    .summary {
+        flex-shrink: 0;
+    }
+    .graphics-container {
+        @include slide(300px, hidden);
+    }
+    .zoom-loading img {
+        display: block;
+        margin-right: 1rem;
+    }
+}
+
+.taskboard-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskboard-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}

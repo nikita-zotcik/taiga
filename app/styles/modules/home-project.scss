@@ -1,0 +1,126 @@
+.single-project {
+    .single-project-intro {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .project-logo {
+        margin-right: 1rem;
+        width: 6rem;
+        img {
+            width: 100%;
+        }
+    }
+    .single-project-title-wrapper {
+        flex: 1;
+    }
+    .intro-options {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+    }
+    .intro-title {
+        align-items: center;
+        display: flex;
+    }
+    h1 {
+        color: $primary;
+        display: inline-block;
+        line-height: 1.2;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+    .private {
+        @include svg-size(1.1rem);
+    }
+    .track-buttons-container {
+        display: flex;
+    }
+    .like-button {
+        margin-right: .75rem;
+    }
+    .track-container {
+        @include list-itemtype-track;
+    }
+    .description {
+        @include font-type(light);
+        @include font-size(medium);
+        margin: 0;
+    }
+    .project-data {
+        display: flex;
+    }
+    .title {
+        @include font-size(medium);
+        @include font-type(text);
+        @include font-type(bold);
+        align-content: center;
+        background: $mass-white;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+        padding: .5rem 1rem;
+    }
+    .single-project-tags {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .timeline {
+        flex: 1;
+        flex-shrink: 3;
+        margin-right: 1rem;
+        max-width: 960px;
+        width: 0;
+    }
+    .looking-for-people {
+        img {
+            width: 100%;
+        }
+        h3 {
+            @include font-size(small);
+        }
+        .is-empty {
+            margin-bottom: .5rem;
+        }
+        p {
+            @include font-size(small);
+            @include font-type(light);
+            margin-bottom: .5rem;
+        }
+        .contact-team {
+            margin-bottom: 1rem;
+        }
+    }
+    .involved-data {
+        flex-basis: 220px;
+        width: 220px;
+    }
+    .involved-team {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        li {
+            flex-basis: 24%;
+            margin-right: .14rem;
+            position: relative;
+            &:nth-child(4n) {
+                margin-right: 0;
+            }
+        }
+        a {
+            display: block;
+        }
+        img {
+            border-radius: .2rem;
+            width: 100%;
+        }
+        .icon-badge {
+            @include svg-size(1.2rem);
+            background: rgba($black, .5);
+            bottom: 5%;
+            padding: .1rem;
+            position: absolute;
+            right: 5%;
+        }
+    }
+}

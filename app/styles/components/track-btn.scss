@@ -1,0 +1,177 @@
+
+.track-buttons-container {
+    @include font-size(small);
+    position: relative;
+}
+
+.track-button {
+    align-items: stretch;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    &.active {
+        .track-inner {
+            background: rgba($primary-light, .4);
+        }
+        .icon {
+            fill: $primary;
+        }
+        .track-button-counter {
+            background: rgba($primary-light, .6);
+        }
+    }
+    &.is-hover {
+        .track-inner {
+            background: lighten($red, 10%);
+            color: $whitish;
+            transition: background .2s;
+        }
+        .icon {
+            fill: $red-light;
+        }
+        .track-button-counter {
+            background: $red;
+            color: $whitish;
+            transition: background .2s;
+        }
+    }
+    .watch-options-arrow {
+        margin-left: auto;
+    }
+    .icon-arrow-down {
+        @include svg-size(.75rem);
+    }
+}
+
+.track-inner {
+    align-items: center;
+    background: $whitish;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    flex: 1;
+    flex-basis: 140px;
+    justify-content: flex-start;
+    min-width: 140px;
+    padding: .25rem 1rem;
+    &:hover {
+        background: darken($whitish, 5%);
+        transition: background .3s;
+    }
+}
+
+.track-icon {
+    fill: $grayer;
+    margin-right: .5rem;
+    position: relative;
+    top: 2px;
+}
+
+.track-button-counter {
+    align-items: center;
+    background: darken($whitish, 5%);
+    border-radius: 0 4px 4px 0;
+    padding: .25rem .75rem;
+}
+
+.contact-team {
+    background: $whitish;
+    border-radius: 4px;
+    padding: .25rem .75rem;
+    &:hover {
+        background: darken($whitish, 5%);
+        transition: background .3s;
+    }
+}
+
+.watch-options {
+    animation: dropdownFade .2s cubic-bezier(.09, 0, .99, .01) alternate;
+    background: rgba($black, .9);
+    border-radius: 4px;
+    margin: 0;
+    margin-top: 2.5rem;
+    min-width: 300px;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    &.hidden {
+        animation: dropdownFade .2s cubic-bezier(.09, 0, .99, .01) reverse;
+    }
+    li {
+        margin: 0;
+        &:last-child a {
+            border: 0;
+        }
+    }
+    a {
+        @include font-type(light);
+        border-bottom: 1px solid rgba($gray-light, .3);
+        color: $white;
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 0;
+        &.active {
+            color: $primary-light;
+        }
+    }
+    .watch-check {
+        height: 1.25rem;
+        width: 1.25rem;
+        svg {
+            fill: $primary-light;
+        }
+    }
+}
+
+.upvote-btn {
+    align-content: center;
+    align-items: stretch;
+    display: flex;
+    flex: 0;
+    flex-basis: 3rem;
+    justify-content: center;
+    margin-right: .3rem;
+    .vote-inner {
+        background: $mass-white;
+        color: $gray-light;
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+    a {
+        &:hover {
+            background: darken($mass-white, 5%);
+            color: $primary-dark;
+            transition: background .3s;
+            path {
+                fill: $primary-dark;
+            }
+        }
+        &.active {
+            background: rgba($primary-light, .2);
+            color: $primary;
+            transition: all .3s;
+            svg {
+                fill: $primary;
+            }
+        }
+        &.is-hover {
+            background: $red;
+            color: $whitish;
+            svg {
+                fill: $red-light;
+                transform: rotate(180deg);
+                transition: all .3s;
+            }
+        }
+    }
+    svg {
+        fill: $gray-light;
+        height: 1rem;
+        width: 1rem;
+    }
+    span {
+        display: block;
+    }
+}

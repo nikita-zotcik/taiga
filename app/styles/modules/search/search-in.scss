@@ -1,0 +1,20 @@
+.search-in {
+    input {
+        background: $grayer;
+        color: $white;
+        @include placeholder {
+            color: $gray-light;
+        }
+    }
+    .icon-search-wrapper {
+        position: absolute;
+        right: .7rem;
+        top: .7rem;
+    }
+    .icon-search {
+        fill: $gray-light;
+    }
+    .loading-spinner {
+        margin-top: .1rem;
+    }
+}

@@ -1,0 +1,59 @@
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+    border: 1px solid;
+    margin: 0;
+    padding: 8px;
+    width: 100%;
+    &.checksley-error {
+        transition: border .3s linear;
+    }
+}
+button,
+button:active,
+button:focus {
+    border: 0;
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+textarea {
+    min-height: 10rem;
+    resize: vertical;
+}
+.checksley-error-list {
+    margin-bottom: 0;
+    li {
+        padding: .2rem;
+    }
+}
+.capslock {
+    &.ng-enter {
+        animation: dropdownFade .2s ease-in;
+    }
+    &.ng-leave {
+        animation: dropdownFade .2s ease-in;
+        animation-direction: reverse;
+    }
+    .icon-capslock {
+        bottom: .8rem;
+        fill: $gray;
+        height: .9rem;
+        position: absolute;
+        right: 1rem;
+        width: .9rem;
+    }
+}

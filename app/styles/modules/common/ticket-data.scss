@@ -1,0 +1,234 @@
+.ticket-header {
+    align-items: center;
+    display: flex;
+    margin: 1.5rem 0 2rem;
+    position: relative;
+    .ticket-title {
+        @include font-size(larger);
+        @include font-type(light);
+        text-transform: uppercase;
+        vertical-align: sub;
+    }
+    .detail-status {
+        @include font-size(small);
+        display: flex;
+        margin-left: .25rem;
+        position: relative;
+        .icon-arrow-down {
+            @include svg-size(.75rem);
+            fill: currentColor;
+            margin-left: .25rem;
+        }
+    }
+    .detail-status-inner {
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        > span {
+            color: $white;
+            padding: .15rem .25rem;
+            text-transform: uppercase;
+        }
+    }
+    .pop-status {
+        @include popover(150px, 1.25rem, 0, '', '');
+        padding: 0;
+        text-transform: none;
+        a {
+            @include font-type(text);
+            padding: .5rem 1rem;
+            text-align: left;
+        }
+        a:hover {
+            background: rgba($primary-light, .2);
+        }
+    }
+}
+
+.ticket-data-container {
+    @include font-size(small);
+    @include font-type(text);
+    margin-bottom: 1rem;
+    .icon {
+        @include svg-size(.7rem);
+        color: currentColor;
+        margin-left: .25rem;
+    }
+}
+
+.ticket-status {
+    &:last-child {
+        margin: 0;
+    }
+    .level {
+        display: inline-block;
+        margin-right: .5rem;
+        vertical-align: top;
+    }
+    .level-name {
+        color: darken($whitish, 20%);
+        float: right;
+        text-transform: lowercase;
+    }
+    .clickable {
+        &:hover {
+            background: darken($whitish, 10%);
+            transition: background .2s ease-in;
+        }
+    }
+    .type-data {
+        background: darken($whitish, 5%);
+        margin-bottom: .5rem;
+        padding: .5rem;
+        padding-right: 1rem;
+        position: relative;
+        transition: background .2s ease-in;
+        .pop-type {
+            @include popover(150px, 30px, 30px, '', '', 0, '', '', '', 15px, 'left');
+        }
+    }
+    .severity-data {
+        background: darken($whitish, 5%);
+        margin-bottom: .5rem;
+        padding: .5rem;
+        padding-right: 1rem;
+        position: relative;
+        transition: background .2s ease-in;
+        .pop-severity {
+            @include popover(150px, 30px, 30px, '', '', 0, '', '', '', 15px, 'left');
+        }
+    }
+    .priority-data {
+        background: darken($whitish, 5%);
+        margin-bottom: .5rem;
+        padding: .5rem;
+        padding-right: 1rem;
+        position: relative;
+        transition: background .2s ease-in;
+        .pop-priority {
+            @include popover(150px, 30px, 30px, '', '', 0, '', '', '', 15px, 'left');
+        }
+    }
+}
+
+.ticket-watch-buttons {
+    margin-bottom: 1rem;
+}
+
+.ticket-watch {
+    .ticket-watch-title {
+        @include font-type(bold);
+        margin-bottom: .5rem;
+    }
+    .ticket-watch-inner {
+        display: flex;
+    }
+    svg {
+        margin-right: .25rem;
+        position: relative;
+        top: 2px;
+    }
+    .ticket-watch-button,
+    .add-watcher {
+        @include font-type(light);
+        @include font-size(small);
+        background: $gray-light;
+        color: $white;
+        flex: 1;
+        padding: .25rem;
+        text-align: center;
+        text-transform: uppercase;
+        transition: background .25s;
+        svg {
+            fill: $white;
+        }
+        &:hover {
+            background: $primary-light;
+        }
+        &.is-hover {
+            background: $red;
+            color: $whitish;
+            transition: background .3s;
+            svg {
+                fill: $red-light;
+            }
+        }
+        &.active {
+            background: $primary-light;
+            &:hover {
+                background: $red-light;
+            }
+            svg {
+                fill: $white;
+            }
+        }
+
+    }
+    .ticket-watch-button {
+        margin-right: .25rem;
+    }
+}
+
+.ticket-detail-settings {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    label,
+    .item-block,
+    .item-unblock,
+    .promote-button,
+    .button-delete {
+        background: $gray-light;
+        display: inline-block;
+        margin-right: .5rem;
+        padding: 1rem;
+        transition: background .2s linear;
+        transition-delay: .1s;
+        &:hover {
+            background: $gray;
+        }
+        &.editable {
+            cursor: pointer;
+        }
+        +input {
+            display: none;
+        }
+    }
+    .item-block,
+    .item-unblock {
+        display: none;
+        &.is-active {
+            display: inline-block;
+        }
+    }
+    .item-unblock {
+        background: $red-light;
+        &:hover {
+            background: $red;
+        }
+    }
+    .button-delete {
+        background: $red-light;
+        &:hover {
+            background: $red;
+        }
+    }
+    img {
+        max-height: 1.25rem;
+        max-width: 1.25rem;
+        width: 100%;
+    }
+    svg {
+        fill: $white;
+        height: 100%;
+        max-height: 1.25rem;
+        max-width: 1.25rem;
+        width: 100%;
+    }
+    .icon-lock {
+        margin: 0;
+    }
+    a {
+        display: block;
+    }
+}

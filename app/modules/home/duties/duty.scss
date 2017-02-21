@@ -1,0 +1,30 @@
+.working-on,
+.watching {
+    margin-bottom: 2rem;
+    .duty-single {
+        border-bottom: 1px solid $whitish;
+        cursor: pointer;
+        transition: background .2s;
+        transition-delay: .2s;
+        &:hover {
+            background: rgba($primary-light, .1);
+        }
+        &:last-child {
+            border: 0;
+        }
+        >a {
+            align-items: center;
+            border-bottom: 0;
+            display: flex;
+            flex-direction: row;
+            &.blocked {
+                background: rgba($red-light, .2);
+                color: $red;
+            }
+        }
+    }
+    .see-more {
+        display: block;
+        margin: 2rem 30%;
+    }
+}

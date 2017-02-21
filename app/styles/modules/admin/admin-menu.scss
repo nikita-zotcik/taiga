@@ -1,0 +1,14 @@
+.admin-menu {
+    li {
+        @include font-type(text);
+        border-bottom: 1px solid darken($whitish, 10%);
+        text-transform: uppercase;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+    a {
+        display: block;
+        padding: 1rem 0 1rem 1rem;
+    }
+}

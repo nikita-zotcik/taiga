@@ -1,0 +1,120 @@
+.us-story-main-data {
+    margin-bottom: 1rem;
+    header {
+        align-content: center;
+        align-items: stretch;
+        display: flex;
+        justify-content: center;
+        margin-bottom: .5rem;
+    }
+}
+
+.subheader {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    @include breakpoint(laptop) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .ticket-created-by {
+        flex-basis: 250px;
+        flex-shrink: 0;
+        @include breakpoint(laptop) {
+            flex-basis: auto;
+            order: 1;
+        }
+    }
+    .tags-block {
+        flex: 1;
+        @include breakpoint(laptop) {
+            order: 2;
+        }
+    }
+}
+
+.duty-content {
+    @include cursor-progress;
+    position: relative;
+    &:hover {
+        .view-description {
+            .edit {
+
+                opacity: 1;
+                top: -1.5rem;
+                transition: all .2s linear;
+            }
+            .editable {
+                background: $mass-white;
+                cursor: pointer;
+            }
+            .no-description {
+                color: $grayer;
+            }
+        }
+    }
+    &.wysiwyg {
+        overflow: visible;
+    }
+    .no-description {
+        color: $gray-light;
+    }
+    textarea {
+        background: $white;
+        height: 10rem;
+    }
+    .save-container {
+        position: absolute;
+        right: 1rem;
+        top: .2rem;
+        &:hover {
+            opacity: .3;
+            transition: opacity .2s linear;
+        }
+        .loading-spinner {
+            @include loading-spinner;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+        }
+    }
+    .edit {
+        cursor: pointer;
+        fill: $gray;
+    }
+    .view-description {
+        .edit {
+            background: $mass-white;
+            height: 2rem;
+            left: 0;
+            opacity: 0;
+            padding: .2rem .5rem;
+            position: absolute;
+            top: 0;
+            transition: all .2s linear;
+            width: 2rem;
+        }
+    }
+    .edit-description {
+        margin-bottom: 2rem;
+        .save {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            top: .3rem;
+        }
+        .edit {
+            display: inline-block;
+            position: absolute;
+            right: 2.5rem;
+            top: .4rem;
+            transition: all .2s linear;
+        }
+        .preview {
+            padding-top: 1.5rem;
+        }
+    }
+}
+
+.comment-list {
+    padding: 1rem;
+}

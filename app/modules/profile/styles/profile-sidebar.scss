@@ -1,0 +1,22 @@
+.profile-sidebar {
+    h4 {
+        @include font-type(bold);
+        background: $mass-white;
+        color: $gray;
+        margin-bottom: .5rem;
+        padding: .5rem;
+        .icon {
+            fill: $gray-light;
+            margin-right: .3rem;
+            margin-top: -3px;
+            vertical-align: middle;
+        }
+    }
+    p {
+        @include font-size(small);
+        color: $gray-light;
+    }
+    a {
+        color: $primary;
+    }
+}

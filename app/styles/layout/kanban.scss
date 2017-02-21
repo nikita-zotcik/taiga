@@ -1,0 +1,35 @@
+.kanban {
+    display: flex;
+    flex-direction: column;
+    height: $main-height;
+    max-height: $main-height;
+    max-width: calc(100vw - 50px);
+    position: relative;
+    header {
+        min-height: 70px;
+    }
+    .kanban-settings {
+        float: right;
+    }
+    .burndown-container {
+        display: none;
+    }
+    .zoom-loading img {
+        display: block;
+        margin-right: 1rem;
+    }
+}
+
+.kanban-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .options {
+        display: flex;
+    }
+}
+
+.taskboard-actions {
+    align-items: center;
+    display: flex;
+}

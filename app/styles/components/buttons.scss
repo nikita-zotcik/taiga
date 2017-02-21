@@ -1,0 +1,197 @@
+.button,
+%button {
+    @include font-type(light);
+    @include font-size(small);
+    background: transparent;
+    border: 0;
+    border-radius: 3px;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    padding: .4rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    vertical-align: middle;
+    &:hover {
+        color: $white;
+        transition: all .2s linear;
+    }
+    &:visited {
+        color: $white;
+    }
+    &.loading {
+        span {
+            animation: loading .5s linear;
+        }
+    }
+    span {
+        color: $white;
+    }
+    .icon {
+        color: $white;
+    }
+    &.disabled,
+    &[disabled] {
+        background: $mass-white;
+        box-shadow: none;
+        color: $gray-light;
+        cursor: not-allowed;
+        opacity: .65;
+        &:hover {
+            background: $mass-white;
+            color: $gray-light;
+        }
+    }
+}
+
+.trans-button {
+    @extend %button;
+    span,
+    .icon {
+        color: $blackish;
+        transition: color .2s linear;
+    }
+    .icon {
+        margin-right: .5rem;
+    }
+    &:visited {
+        color: $blackish;
+    }
+}
+
+.menu-button {
+    @extend %button;
+    border-radius: 0;
+    color: $blackish;
+    &:hover {
+        background: $whitish;
+        color: $gray;
+    }
+    &:visited {
+        color: $blackish;
+    }
+    span {
+        color: $blackish;
+    }
+}
+
+.submit-button {
+    width: 100%;
+}
+.button-green,
+a.button-green {
+    @extend %button;
+    background: $primary;
+    &:hover,
+    &.active {
+        background: $primary-light;
+        color: $white;
+    }
+}
+.button-gray,
+a.button-gray {
+    @extend %button;
+    background: $gray;
+    &:hover,
+    &.active {
+        background: $primary-light;
+        color: $white;
+    }
+}
+.button-blackish {
+    @extend %button;
+    background: $blackish;
+    color: $whitish;
+    &:hover {
+        background: $blackish;
+        color: $white;
+    }
+}
+.button-red {
+    @extend %button;
+    background: $red-light;
+    &:hover {
+        background: $red;
+        color: $white;
+    }
+    .icon {
+        color: $white;
+    }
+}
+
+.button-bulk {
+    @extend %button;
+    background: $primary;
+    padding: .35rem .5rem;
+    .icon {
+        fill: currentColor;
+        margin-right: 0;
+        position: relative;
+        top: 1px;
+    }
+    &:hover {
+        background: $primary-light;
+    }
+}
+.button-auth {
+    @extend %button;
+    background: $grayer;
+    .icon,
+    img {
+        @include font-size(large);
+        color: $white;
+        margin-right: .5rem;
+    }
+    &:hover {
+        background: $black;
+    }
+}
+
+.button-tribe {
+    @extend %button;
+    align-items: center;
+    background: $tribe-primary;
+    display: flex;
+    padding: .4rem;
+    padding-left: 1.5rem;
+    &:hover,
+    &.active {
+        background: $tribe-secondary;
+        color: $white;
+    }
+    .tribe-logo {
+        margin-right: .5rem;
+        width: 1.5rem;
+    }
+}
+
+.tribe-more-info {
+    @include font-size(small);
+    color: $primary;
+    display: inline-block;
+    margin-top: .5rem;
+}
+
+.button-filter {
+    @extend %button;
+    background: $whitish;
+    margin-left: 1rem;
+    padding: .4rem .5rem;
+    position: relative;
+    &:hover {
+        background: $gray-light;
+        fill: $whitish;
+    }
+    .filter-num {
+        @include font-size(small);
+        @include font-type(medium);
+        background: $red;
+        border-radius: 50%;
+        height: 1rem;
+        left: -.5rem;
+        position: absolute;
+        top: -.5rem;
+        width: 1rem;
+    }
+}

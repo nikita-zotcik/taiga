@@ -1,0 +1,178 @@
+.colors-table {
+    .table-header {
+        @include font-size(medium);
+        @include font-type(bold);
+        border-bottom: 3px solid $whitish;
+        &:hover {
+            background: transparent;
+        }
+        .row {
+            padding-left: 50px;
+            &:hover {
+                background: transparent;
+            }
+        }
+    }
+    .row {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        &:last-child {
+            border: 0;
+        }
+        &.edition {
+            padding-left: 3rem;
+            .current-color {
+                cursor: pointer;
+            }
+        }
+        &.hidden {
+            display: none;
+        }
+        &:hover {
+            background: lighten(rgba($primary-light, .2), 30%);
+            cursor: move;
+            transition: background .2s ease-in;
+            .icon {
+                opacity: 1;
+                transition: opacity .2s ease-in;
+            }
+            .options-column {
+                opacity: 1;
+                transition: opacity .3s linear;
+            }
+        }
+        &.no-draggable {
+            padding-left: 50px;
+            &:hover {
+                cursor: auto;
+            }
+        }
+        .color-column {
+            flex-basis: 60px;
+            flex-grow: 1;
+            max-width: 100px;
+            position: relative;
+        }
+        .is-archived-column,
+        .is-closed-column,
+        .options-column,
+        .status-wip-limit {
+            flex-basis: 100px;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        .status-name,
+        .color-name {
+            flex-basis: 150px;
+            flex-grow: 1;
+            flex-shrink: 0;
+            padding: 0 10px;
+            position: relative;
+            span {
+                @include ellipsis(100%);
+                display: block;
+            }
+        }
+        .color-name {
+            flex-basis: 100px;
+        }
+        .status-slug {
+            display: none;
+            flex-basis: 150px;
+            flex-grow: 6;
+            padding: 0 10px;
+            @include breakpoint(desktop) {
+                display: block;
+            }
+            span {
+                @include ellipsis(100%);
+            }
+        }
+        .options-column {
+            max-width: 100px;
+            opacity: 0;
+            text-align: right;
+        }
+        .is-archived-column {
+            max-width: 130px;
+            padding: 0 0 0 10px;
+            text-align: center;
+        }
+        .is-closed-column {
+            max-width: 100px;
+            text-align: center;
+        }
+        .status-wip-limit {
+            display: none;
+            max-width: 100px;
+            padding: 0 0 0 10px;
+            text-align: center;
+            @include breakpoint(desktop) {
+                display: block;
+            }
+        }
+
+    }
+    .options-column {
+        a {
+            cursor: pointer;
+            display: inline-block;
+        }
+    }
+
+    .row-edit {
+        .options-column {
+            opacity: 1;
+        }
+    }
+
+    .current-color {
+        background-color: $whitish;
+        border-radius: 2px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .icon {
+        cursor: pointer;
+        fill: $gray-light;
+        margin-right: 1rem;
+        opacity: 0;
+        &:hover {
+            fill: $primary-light;
+            transition: all .2s ease-in;
+        }
+        &.icon-check {
+            cursor: default;
+            fill: $primary;
+            opacity: 1;
+        }
+        &.icon-merge {
+            cursor: default;
+            opacity: 1;
+        }
+        &.icon-search {
+            cursor: none;
+            fill: $primary;
+            opacity: 1;
+        }
+        &.icon-drag {
+            cursor: move;
+        }
+        &.icon-trash {
+            fill: $red-light;
+        }
+    }
+    .gu-mirror {
+        background: lighten($primary, 60%);
+        opacity: 1;
+    }
+    .gu-transit {
+        * {
+            visibility: hidden;
+        }
+    }
+
+}

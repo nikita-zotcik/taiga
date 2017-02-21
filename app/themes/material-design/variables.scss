@@ -1,0 +1,53 @@
+//*************************
+//** COLORS
+//************************
+
+// Colors
+$black: #000;
+$blackish: #212121;
+$grayer: #424242;
+$gray: #757575;
+$gray-light: #BDBDBD;
+$whitish: #EEEEEE;
+$white: #fff;
+
+// Mass white
+$mass-white: #f5f5f5;
+
+// Primary colors
+$primary-light: #8c9eff;
+$primary: #3f51b5;
+$primary-dark: #1a237e;
+
+//Warning colors
+$red-light: #ff5252;
+$red: #f44336;
+
+//Card color
+$card: #fff8e4;
+$card-hover: #f1e8cd;
+$card-dark: #cfc29b;
+
+$green-japanese-laurel: #009688;
+$green-olive: #cddc39;
+$red-amaranth: #e91e63;
+$purple-eggplant: #9c27b0;
+$yellow-pear: #ffc107;
+
+$tribe-primary: #107a8a;
+$tribe-secondary: darken($tribe-primary, 10%);
+
+$top-icon-color: $white;
+$dropdown-color: rgba(darken($primary-dark, 20%), 1);
+
+/* Overwrite mixins */
+
+@mixin triangled-bg {
+    background: url('https://lh4.googleusercontent.com/-k7YewfrSQ_Q/VGdNZND0NBI/AAAAAAAAD1A/UDZBeSGR7iM/w1465-h824-no/Ultimate%2BMaterial%2BLollipop%2BCollection%2B-%2B480') no-repeat center center;
+    background-size: cover;
+}
+
+@mixin background-taiga {
+    background: url('https://lh6.googleusercontent.com/-2l_mJ5g6j4k/VGdNZCpaERI/AAAAAAAAD2o/zCx5Z3cYv6Y/w1465-h824-no/Ultimate%2BMaterial%2BLollipop%2BCollection%2B-%2B497') no-repeat center center;
+    background-size: cover;
+}

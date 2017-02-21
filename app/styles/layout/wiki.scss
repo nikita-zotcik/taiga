@@ -1,0 +1,12 @@
+.wiki {
+    max-width: 1024px;
+    .wysiwyg {
+        margin-bottom: 0;
+    }
+    .wiki-title {
+        @include font-type(light);
+        @include font-size(xxlarge);
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+}

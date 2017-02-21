@@ -1,0 +1,53 @@
+.policy-table {
+    .policy-table-row {
+        align-items: center;
+        border-bottom: 1px solid $whitish;
+        display: flex;
+        justify-content: center;
+    }
+
+    .policy-table-header {
+        @include font-type(bold);
+        border-bottom: 2px solid $gray-light;
+    }
+
+    .policy-table-project ,
+    .policy-table-all,
+    .policy-table-involved,
+    .policy-table-none {
+        padding: 1rem;
+    }
+
+    .policy-table-project {
+        flex-basis: 0;
+        flex-grow: 3;
+    }
+
+    .policy-table-all,
+    .policy-table-involved,
+    .policy-table-none {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+    input {
+        display: none;
+        &:checked {
+            +label {
+                background: $primary;
+                transition: background .3s linear;
+            }
+        }
+    }
+    label {
+        background: $gray-light;
+        border-radius: 5px;
+        color: $white;
+        display: block;
+        padding: .5rem;
+        &:hover {
+            background: $primary-light;
+            cursor: pointer;
+            transition: background .3s linear;
+        }
+    }
+}

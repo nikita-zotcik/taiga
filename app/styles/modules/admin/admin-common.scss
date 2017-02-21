@@ -1,0 +1,31 @@
+.admin-common {
+    header {
+        h1 {
+            margin-bottom: 0;
+        }
+    }
+    .admin-subtitle {
+        color: $gray-light;
+        margin-bottom: 2rem;
+        a {
+            color: $primary;
+            &:hover {
+                color: $primary-light;
+            }
+        }
+    }
+    .total {
+        @include font-size(large);
+        align-items: center;
+        background-color: $whitish;
+        color: $grayer;
+        display: flex;
+        padding: .3rem 1rem;
+        &:hover {
+            .icon-edit {
+                opacity: 1;
+                transition: opacity .3s linear;
+            }
+        }
+    }
+}

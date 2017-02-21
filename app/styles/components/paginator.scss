@@ -1,0 +1,29 @@
+.paginator {
+    margin: 2rem 0;
+    ul {
+        display: flex;
+        margin-left: 1rem;
+    }
+    li {
+        margin-right: .4rem;
+    }
+    a,
+    .active span {
+        background: $gray-light;
+        color: $white;
+        padding: .5rem 1rem;
+        transition: all .3s linear;
+    }
+    a {
+        &:hover {
+            background: $blackish;
+            color: $white;
+            transition: all .3s linear;
+        }
+    }
+    .active {
+        span {
+            background: $primary-light;
+        }
+    }
+}

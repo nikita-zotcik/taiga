@@ -1,0 +1,60 @@
+.admin-attributes {
+    .admin-attributes-section {
+        margin-bottom: 2rem;
+        .checksley-error-list {
+            height: 0;
+            position: relative;
+            li {
+                @include font-type(light);
+                background: rgba($red, .7);
+                position: absolute;
+                width: 100%;
+            }
+        }
+        .admin-tags-section-wrapper-empty {
+            color: $gray-light;
+            padding: 10vh 0 0;
+            text-align: center;
+        }
+        .loading-spinner {
+            max-height: 3rem;
+            max-width: 3rem;
+        }
+    }
+}
+
+.admin-roles {
+    header {
+        position: relative;
+    }
+    h1 {
+        margin-bottom: 0;
+    }
+    p {
+        @include font-type(text);
+        @include font-size(large);
+        color: $gray-light;
+    }
+}
+
+.project-values-title {
+    align-content: center;
+    align-items: center;
+    background: $mass-white;
+    display: flex;
+    justify-content: space-between;
+    padding: .8em 1rem;
+    text-transform: uppercase;
+    h2 {
+        @include font-type(light);
+        @include font-size(large);
+        margin: 0;
+        span {
+            margin-left: .5rem;
+            text-transform: none;
+        }
+    }
+    a {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,104 @@
+// Basic layout styles
+@include meyer-reset;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+}
+body {
+    @include font-type(text);
+    line-height: 1.3;
+    min-height: 100%;
+    width: 100%;
+    .master {
+        &.ng-animate {
+            transition: 0;
+        }
+    }
+    &.loading-project {
+        overflow: hidden;
+    }
+}
+
+.loader-active {
+    overflow: hidden;
+}
+
+.drag-active {
+    overflow-x: hidden;
+}
+
+.master {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.centered {
+    margin: 1rem auto;
+    max-width: 1200px;
+    min-width: 960px;
+    width: 90%;
+}
+
+.wrapper {
+    display: flex;
+    min-height: $main-height;
+}
+
+.menu-secondary {
+    flex: 0 0 auto;
+    min-height: $main-height;
+    min-width: 0;
+    padding: 1rem;
+    width: 320px;
+    .search-in {
+        margin-top: .5rem;
+    }
+}
+
+.menu-tertiary {
+    flex: 0 0 auto;
+    min-height: $main-height;
+    width: 250px;
+}
+
+.main {
+    flex: 1;
+    min-width: 0;
+    padding: 1rem 2rem;
+}
+
+.hidden {
+    // scss-lint:disable ImportantRule
+    display: none !important;
+}
+
+.header-with-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    header {
+        flex: 1;
+    }
+    .action-buttons {
+        flex-shrink: 0;
+    }
+    .button {
+        color: $white;
+        float: right;
+        margin-left: 10px;
+        &:hover {
+            color: $white;
+        }
+    }
+    h1 {
+        margin-bottom: 0;
+    }
+}
